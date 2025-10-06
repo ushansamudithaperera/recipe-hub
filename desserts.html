@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dessert Recipes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Hub | Desserts</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Dessert Recipes</h1>
+  <header>
+    <h1> Recipe Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="appetizers.html">Appetizers</a>
+      <a href="desserts.html" class="active">Desserts</a>
+    </nav>
+  </header>
 
-    <h2>1. Chocolate Cake</h2>
-    <ul>
-        <li>Flour</li>
-        <li>Sugar</li>
-        <li>Cocoa powder</li>
-        <li>Eggs</li>
-        <li>Milk</li>
-    </ul>
-    <p>Steps: Mix ingredients, bake at 180°C for 30 mins, cool, and serve.</p>
+  <section class="recipes">
+    <h2>Dessert Recipes</h2>
 
-    <h2>2. Fruit Salad</h2>
-    <ul>
-        <li>Banana</li>
-        <li>Apple</li>
-        <li>Grapes</li>
-        <li>Honey</li>
-    </ul>
-    <p>Steps: Chop fruits, drizzle with honey, and mix well.</p>
+    <div class="recipe-card">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800" alt="Chocolate Cake">
+      <h3>Chocolate Cake</h3>
+      <p><strong>Ingredients:</strong> Flour, Sugar, Cocoa, Eggs, Milk</p>
+      <p><strong>Steps:</strong> Mix ingredients, bake at 180°C for 30 mins, cool, and serve.</p>
+    </div>
+
+    <div class="recipe-card">
+      <img src="https://cdn.pixabay.com/photo/2015/04/24/00/33/fruit-salad-737096_1280.jpg" alt="Fruit Salad">
+      <h3>Fruit Salad</h3>
+      <p><strong>Ingredients:</strong> Banana, Apple, Grapes, Honey</p>
+      <p><strong>Steps:</strong> Chop fruits, drizzle with honey, and mix well.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Recipe Hub | Created by <strong>Ushan Perera</strong></p>
+  </footer>
 </body>
 </html>
