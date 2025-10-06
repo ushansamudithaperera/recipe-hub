@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fffdf7;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #089e08;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffe0b2;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  opacity: 0.85;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+/* Recipe Cards */
+.recipes {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.recipes h2 {
+  margin-bottom: 30px;
+  color: #089e08;
+}
+
+.recipe-card {
+  display: inline-block;
+  width: 320px;
+  margin: 15px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.recipe-card p {
+  padding: 0 15px 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #089e08;
+  color: white;
+  padding: 20px;
+  margin-top: 200px;
+}
