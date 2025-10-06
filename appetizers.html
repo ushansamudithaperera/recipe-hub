@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Appetizer Recipes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Hub | Appetizers</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Appetizer Recipes</h1>
+  <header>
+    <h1> Recipe Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="appetizers.html" class="active">Appetizers</a>
+      <a href="desserts.html">Desserts</a>
+    </nav>
+  </header>
 
-    <h2>1. Garlic Bread</h2>
-    <ul>
-        <li>Bread slices</li>
-        <li>Butter</li>
-        <li>Garlic</li>
-        <li>Parsley</li>
-    </ul>
-    <p>Steps: Mix butter with minced garlic and parsley, spread on bread, bake until golden.</p>
+  <section class="recipes">
+    <h2>Appetizer Recipes</h2>
 
-    <h2>2. Bruschetta</h2>
-    <ul>
-        <li>Baguette slices</li>
-        <li>Tomatoes</li>
-        <li>Basil</li>
-        <li>Olive oil</li>
-    </ul>
-    <p>Steps: Toast bread, top with diced tomatoes, basil, and olive oil.</p>
+    <div class="recipe-card">
+      <img src="https://cdn.pixabay.com/photo/2020/11/28/17/48/garlic-bread-5785406_960_720.jpg" alt="Garlic Bread">
+      <h3>Garlic Bread</h3>
+      <p><strong>Ingredients:</strong> Bread, Butter, Garlic, Parsley</p>
+      <p><strong>Steps:</strong> Mix butter with minced garlic and parsley, spread on bread, and bake until golden.</p>
+    </div>
+
+    <div class="recipe-card">
+      <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=800" alt="Bruschetta">
+      <h3>Bruschetta</h3>
+      <p><strong>Ingredients:</strong> Baguette, Tomatoes, Basil, Olive Oil</p>
+      <p><strong>Steps:</strong> Toast bread, top with diced tomatoes, basil, and olive oil.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Recipe Hub | Created by <strong>Ushan Perera</strong></p>
+  </footer>
 </body>
 </html>
